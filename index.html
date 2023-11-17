@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/style.css">
+  <title>Thauany Tavares</title>
+</head>
+
+<body>
+  <header id="header">
+    <!-- menu -->
+    <nav class="menu container">
+      <h1><img class="logo" src="./img/logo.svg" alt="Logo Thauany Tavares Pscóloga"></h1>
+      <input type="checkbox" class="checkbox" id="checkbox">
+      <label for="checkbox" class="label_menu">
+        <p>MENU</p><span class="hamburguer"></span>
+      </label>
+      <ul class="menu_lista">
+        <li><a href="#header" data-section="nav" data-value="menu_inicio">Inicio</a></li>
+        <li><a href="#about" data-section="nav" data-value="menu_sobre">Sobre</a></li>
+        <li><a href="#atuação" data-section="nav" data-value="menu_atuacao">Atuação</a></li>
+        <li><a href="#contato" data-section="nav" data-value="menu_contato">Contato</a></li>
+        <li>
+          <div id="flags" class="flags">
+            <p data-section="nav" data-value="menu_idioma" class="idioma_titulo">Idioma</p>
+            <div class="flags_item _us" data-language="en">
+              <img src="./img/usa.png" alt="Bandeira dos Estados Unidos">
+              <strong>English</strong>
+            </div>
+            <div class="flags_item _br" data-language="pt-br">
+              <img src="./img/brazil.png" alt="Bandeira do Brasil">
+              <strong>Português</strong>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <section aria-label="seção de apresentação da Thauany Tavares" class="home container" id="inicio">
+    <div class="home_apresentacao">
+      <h2 data-section="inicio" data-value="home_titulo">Olá! Eu sou</h2>
+      <h2 class="digitando" data-section="inicio" data-value="home_digitando">Psicóloga TCC.</h2>
+      <p data-section="inicio" data-value="home_descricao"> Minha carreira é pautada no compromisso com o bem-estar e
+        apoio àqueles que necessitam de assistência
+        psicológica em diferentes contextos.
+        É um prazer ter você aqui, conheça um pouco mais sobre mim</p>
+      <a data-section="inicio" data-value="home_btn" href="#about">Sobre Mim</a>
+    </div>
+    <img class="img_perfil" src="./img/foto-header.png" alt="Imagem de perfil da Thauany Tavares">
+  </section>
+  <!--SOBRE-->
+  <section aria-label="Seção de Sobre mim da Thauany Tavares" class="sobre container hidden" id="about">
+    <h2 data-section="sobre" data-value="sobre_titulo_seção" class="titulo hidden">Sobre mim</h2>
+    <div class="sobre_descricao caixa">
+      <div class="sobre_container_descricao">
+        <img class="img_descricao hidden" src="./img/foto-sobre.png" alt="Foto da Thauany Tavares">
+        <div class="descricao hidden">
+          <h2 data-section="sobre" data-value="sobre_titulo_caixa">Eu sou Thauany Tavares</h2>
+          <p data-section="sobre" data-value="sobre_descrição_caixa">Sou graduada em Psicologia, com um sólido
+            background
+            acadêmico e formação complementar em Terapia
+            Cognitivo-Comportamental (TCC) e Psicologia Forense. <br><br> Atualmente, resido no exterior, onde me dedico
+            a
+            auxiliar
+            brasileiros que vivem fora de seu país de origem. Além disso, também presto serviços em comunidades de
+            acolhimento, trabalhando com moradores de rua. </p>
+          <ul class="info_descricao">
+            <li><strong data-section="sobre" data-value="sobre_caixa_endereço">ENDEREÇO:</strong> <span
+                data-section="sobre" data-value="sobre_caixa_endereço_valor">Dublin, Irlanda</span></li>
+            <li><strong data-section="sobre" data-value="sobre_caixa_nacionalidade">Nacionalidade:</strong><span
+                data-section="sobre" data-value="sobre_caixa_nacionalidade_valor"> Brasileira</span>
+            </li>
+            <li><strong data-section="sobre" data-value="sobre_caixa_Línguas">Línguas:</strong><span
+                data-section="sobre" data-value="sobre_caixa_Línguas_valor"> Português, Inglês</span></li>
+            <li><strong>CRP:</strong> 04/64524</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!---ATUAÇÂO-->
+  <section aria-label="Seção que aborda a aréa de atução da Thauany Tavares" class="atuacao container hidden"
+    id="atuação">
+    <h2 class="titulo hidden" data-section="atuação" data-value="atuação_titulo_seção">Atuação</h2>
+    <ul class="atuacao_lista">
+      <li class="atuacao_item hidden">
+        <img class="hidden" src="./img/violencia.png" alt="Imagem representativa Violencia Doméstica">
+        <div class="atuacao_area hidden">
+          <h3 data-section="atuação" data-value="atuação_titulo_violencia">Violência Doméstica</h3>
+          <p data-section="atuação" data-value="atuação_texto_violencia">Tenho dedicado meu tempo e esforço para apoiar
+            vítimas de violência doméstica, oferecendo um espaço
+            seguro
+            para explorar suas experiências, superar traumas e recuperar o controle sobre suas vidas.
+          </p>
+        </div>
+      </li>
+      <li class="atuacao_item hidden">
+        <img class="hidden" src="./img/ansiedade.png" alt="Imagem representativa Ansiedades e depressão">
+        <div class="atuacao_area hidden">
+          <h3 data-section="atuação" data-value="atuação_titulo_ansiedade">Ansiedade e Depressão</h3>
+          <p data-section="atuação" data-value="atuação_texto_ansiedade"> A ansiedade e a depressão são desafios comuns
+            em todo o mundo. Trabalho com indivíduos que enfrentam
+            esses
+            transtornos, auxiliando-os na compreensão de suas causas e no desenvolvimento de estratégias para reduzir
+            o
+            impacto dessas condições em seu dia a dia.
+          </p>
+        </div>
+      </li>
+      <li class="atuacao_item hidden">
+        <img class="hidden" src="./img/trauma.png" alt="Imagem representativa Traumas">
+        <div class="atuacao_area hidden">
+          <h3 data-section="atuação" data-value="atuação_titulo_traumas">Traumas</h3>
+          <p data-section="atuação" data-value="atuação_texto_traumas">Traumas podem deixar cicatrizes emocionais
+            profundas. Na minha prática, ajudo meus clientes a processar
+            traumas passados e a encontrar maneiras saudáveis de seguir em frente.
+          </p>
+        </div>
+      </li>
+    </ul>
+    <div class="tcc_container hidden">
+      <div class="tcc hidden">
+        <img class="hidden" src="./img/logo.svg" alt="Logo da Thauany Tavares">
+        <div class="tcc_descricao caixa hidden">
+          <h2 data-section="atuação" data-value="caixa_terapia_titulo">Terapia Cognitivo-Comportamental (TCC)</h2>
+          <p data-section="atuação" data-value="caixa_terapia_texto">Minha abordagem terapêutica central é a Terapia
+            Cognitivo-Comportamental (TCC), uma metodologia
+            comprovadamente eficaz que se concentra na identificação e modificação de padrões de pensamento e
+            comportamento que podem estar causando sofrimento emocional. Através da TCC, trabalho em colaboração com
+            meus
+            clientes para desenvolver estratégias práticas que promovam o bem-estar mental e emocional.
+            <br>
+            <br>
+            Meu objetivo é fornecer um ambiente terapêutico empático e de apoio, onde cada pessoa possa explorar seus
+            desafios e desenvolver as habilidades necessárias para alcançar o bem-estar emocional e psicológico.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- CONTATO -->
+  <section aria-label="secão que contem informações de contato da Thauany Tavares" class="contato container hidden"
+    id="contato">
+    <h2 class="titulo hidden" data-section="contato" data-value="contato_titulo_seção">Contato</h2>
+    <p class="titulo_form" data-section="contato" data-value="contato_titulo">Fale comigo!</p>
+    <div class="contato_caixa">
+      <form action="https://formsubmit.co/tavaresrendas@outlook.com" method="POST" class="formulario" data-form>
+        <label for="nome" data-section="contato" data-value="contato_label_nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required><br>
+
+        <label for="email" data-section="contato" data-value="contato_label_email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+        <label for="mensagem" data-section="contato" data-value="contato_label_mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="4" cols="50" required></textarea><br>
+        <input type="hidden" name="_captcha" value="false">
+
+        <button type="submit" data-button class="btn_formulario" data-section="contato" data-value="contato_btn_enviar">Enviar</button>
+      </form>
+      <div class="contato_texto">
+        <img src="./img/logo.svg" alt="Logo da Thauany Tavares" class="img_caixa_contato">
+        <p data-section="contato" data-value="contato_texto">Se você está buscando apoio nessas áreas ou gostaria de
+          saber mais sobre como a Terapia
+          Cognitivo-Comportamental pode beneficiar você, não hesite em entrar em contato.
+          <br><br> Estou aqui para ajudar no seu caminho em direção a uma vida mais saudável e equilibrada.
+        </p>
+        <div class="contato_links">
+          <a href="#"><img src="./img/whatsapp.svg" alt="Logo do whatsapp"></a>
+          <a href="#"><img src="./img/instagram.svg" alt="Logo do Instagram"></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <p data-section="footer" data-value="desenvolvido">Desenvolvido por <a href="https://linktr.ee/Tavaresdev">Tavares</a> @ Alguns direitos reservados</p>
+  </footer>
+  <a id="scrollToTopBtn" href="#" onclick="scrollToTop();"><img class="rolar_cima" src="./img/paracima.png"
+      alt="Icone para rolar a página para o incio"></a>
+  <script src="script.js"></script>
+</body>
+
+</html>

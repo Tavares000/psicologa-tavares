@@ -1,0 +1,56 @@
+{
+  "nav": {
+    "menu_inicio": "Home",
+    "menu_sobre": "About",
+    "menu_atuacao": "Occupation",
+    "menu_contato": "Contact",
+    "menu_idioma": "Language"
+  },
+
+  "inicio": {
+    "home_titulo": "Hi! I am",
+    "home_digitando": "Psychologist CBT.",
+    "home_descricao": " My career is based on a commitment to well-being and support for those who provide assistance psychology in different contexts. It's a pleasure to have you here, get to know a little more about me",
+    "home_btn": "About me"
+  },
+
+  "sobre": {
+    "sobre_titulo_seção": "About me",
+    "sobre_titulo_caixa": "I am Thauany Tavares",
+    "sobre_descrição_caixa": "I have a degree in Psychology, with a solid academic background and additional training in Cognitive-Behavioral Therapy (CBT) and Forensic Psychology. <br><br> I currently live abroad, where I dedicate myself to helping Brazilians who live outside their country of origin. In addition, I also provide services in host communities, working with homeless people.",
+    "sobre_caixa_endereço":"Address:",
+    "sobre_caixa_endereço_valor": "Dublin, Ireland",
+    "sobre_caixa_nacionalidade":"Nationality:",
+    "sobre_caixa_nacionalidade_valor": " Brazilian",
+    "sobre_caixa_Línguas":"Languages:",
+    "sobre_caixa_Línguas_valor":" Portuguese, English"    
+  },
+
+  "atuação": {
+    "atuação_titulo_seção":"Occupation",
+    "atuação_titulo_violencia":"Domestic Violence",
+    "atuação_titulo_ansiedade":"Anxiety and Depression",
+    "atuação_titulo_traumas":"Trauma",
+    "atuação_texto_violencia":"I have dedicated my time and effort to supporting victims of domestic violence, offering a safe space to explore their experiences, overcome trauma, and regain control over their lives.",
+    "atuação_texto_ansiedade":"Anxiety and depression are common challenges around the world. I work with individuals facing these disorders, helping them understand their causes and develop strategies to reduce the impact of these conditions on their daily lives.",
+    "atuação_texto_traumas":"Trauma can leave deep emotional scars. In my practice, I help my clients process past trauma and find healthy ways to move forward.",
+    
+    "caixa_terapia_titulo": "Cognitive-Behavioral Therapy (CBT)",
+    "caixa_terapia_texto": "My core therapeutic approach is Cognitive Behavioral Therapy (CBT), a proven effective methodology that focuses on identifying and modifying patterns of thinking and behavior that may be causing emotional distress. Through CBT, I work collaboratively with my clients to develop practical strategies that promote mental and emotional well-being.<br><br> My goal is to provide an empathetic and supportive therapeutic environment where each person can explore their challenges and develop the skills necessary to achieve emotional and psychological well-being."
+  },
+
+  "contato": {
+    "contato_titulo_seção": "contact",
+    "contato_titulo": "Contact me!",
+    "contato_label_nome": "Name",
+    "contato_label_email": "Email",
+    "contato_label_mensagem": "Message",
+    "contato_btn_enviar":"Send",
+    "contato_texto":"If you are looking for support in these areas or would like to find out more about how Cognitive Behavioral Therapy can benefit you, please don't hesitate to get in touch. <br><br> I'm here to help on your path towards a healthier and more balanced life."
+  },
+
+  "footer": {
+    "desenvolvido":"Developed by Tavares @ Some rights reserved"
+  }
+}
+

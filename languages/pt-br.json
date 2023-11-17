@@ -1,0 +1,57 @@
+{
+  "nav": {
+    "menu_inicio": "Inicio",
+    "menu_sobre": "Sobre",
+    "menu_atuacao": "Atuação",
+    "menu_contato": "Contato",
+    "menu_idioma": "Idioma"
+  },
+
+  "inicio": {
+    "home_titulo": "Olá! Eu sou ",
+    "home_digitando": "Psicóloga TCC.",
+    "home_descricao": "Minha carreira é pautada no compromisso com o bem-estar e apoio àqueles que necessitam de assistência psicológica em diferentes contextos. É um prazer ter você aqui, conheça um pouco mais sobre mim",
+    "home_btn": "Sobre Mim"
+  },
+
+  "sobre": {
+    "sobre_titulo_seção": "Sobre mim",
+    "sobre_titulo_caixa": "Eu sou Thauany Tavares",
+    "sobre_descrição_caixa": "Sou graduada em Psicologia, com um sólido background acadêmico e formação complementar em Terapia Cognitivo-Comportamental (TCC) e Psicologia Forense. <br><br> Atualmente, resido no exterior, onde me dedico a auxiliar brasileiros que vivem fora de seu país de origem. Além disso, também presto serviços em comunidades de acolhimento, trabalhando com moradores de rua.",
+    "sobre_caixa_endereço":"endereço:",
+    "sobre_caixa_endereço_valor": "Dublin, Irlanda",
+    "sobre_caixa_nacionalidade":"nacionalidade:",
+    "sobre_caixa_nacionalidade_valor": " Brasileira",
+    "sobre_caixa_Línguas":"Línguas:",
+    "sobre_caixa_Línguas_valor":" Português, Inglês"     
+  },
+
+  "atuação": {
+    "atuação_titulo_seção":"Atuação",
+    "atuação_titulo_violencia":"Violência Doméstica",
+    "atuação_titulo_ansiedade":"Ansiedade e Depressão",
+    "atuação_titulo_traumas":"Traumas",
+    "atuação_texto_violencia":"Tenho dedicado meu tempo e esforço para apoiar vítimas de violência doméstica, oferecendo um espaço seguro para explorar suas experiências, superar traumas e recuperar o controle sobre suas vidas.",
+    "atuação_texto_ansiedade":"A ansiedade e a depressão são desafios comuns em todo o mundo. Trabalho com indivíduos que enfrentam esses transtornos, auxiliando-os na compreensão de suas causas e no desenvolvimento de estratégias para reduzir o impacto dessas condições em seu dia a dia.",
+    "atuação_texto_traumas":"Traumas podem deixar cicatrizes emocionais profundas. Na minha prática, ajudo meus clientes a processar traumas passados e a encontrar maneiras saudáveis de seguir em frente.",
+    
+    "caixa_terapia_titulo": "Terapia Cognitivo-Comportamental (TCC)",
+    "caixa_terapia_texto": "Minha abordagem terapêutica central é a Terapia Cognitivo-Comportamental (TCC), uma metodologia comprovadamente eficaz que se concentra na identificação e modificação de padrões de pensamento e comportamento que podem estar causando sofrimento emocional. Através da TCC, trabalho em colaboração com meus clientes para desenvolver estratégias práticas que promovam o bem-estar mental e emocional.<br><br> Meu objetivo é fornecer um ambiente terapêutico empático e de apoio, onde cada pessoa possa explorar seus desafios e desenvolver as habilidades necessárias para alcançar o bem-estar emocional e psicológico."
+  },
+
+  "contato": {
+    "contato_titulo_seção": "contato",
+    "contato_titulo": "Fale comigo!",
+    "contato_label_nome": "Nome",
+    "contato_label_email": "Email",
+    "contato_label_mensagem": "Mensagem",
+    "contato_btn_enviar":"Enviar",
+    "contato_texto":"Se você está buscando apoio nessas áreas ou gostaria de saber mais sobre como a Terapia Cognitivo-Comportamental pode beneficiar você, não hesite em entrar em contato. <br><br> Estou aqui para ajudar no seu caminho em direção a uma vida mais saudável e equilibrada."
+  },
+
+  "footer": {
+    "desenvolvido":"Desenvolvido por Tavares @ Alguns direitos reservados"
+  }
+
+
+}

@@ -1,0 +1,87 @@
+.contato{
+  margin-top: 80px;
+}
+.titulo_form {
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 40px 0;
+}
+.contato_caixa{
+  display: flex;
+  justify-content: space-between;
+}
+.formulario{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+.formulario input , textarea{
+  padding: 10px;
+  border-radius: 20px;
+  border: 3px solid var(--color-bege);
+  font-family: 'poppins', san-serif;;
+}
+.btn_formulario{
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 20px;
+  border: 3px solid var(--color-bege);
+  font-family: 'poppins', san-serif;
+}
+.formulario label{
+  color: var(--color-cinza);
+  margin-left: 10px;
+  font-size: 0.9rem;
+}
+.contato_texto{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  padding: 40px;
+  background-color: var(--color-fundo);
+  border-radius: 20px ;
+  box-shadow: 1px 1px 10px var(--color-bege); 
+}
+.img_caixa_contato{
+  position: absolute;
+  max-width: 100%;
+  top: -60px;
+}
+.contato .contato_texto p {
+  padding-top: 20px;
+  font-size: 1.1rem;
+}
+.contato_links{
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+/* Adaptação tablet */
+@media screen and (max-width:1024px) {
+  .contato .contato_texto p {
+    font-size: 0.9rem;
+  }
+}
+@media screen and (max-width:768px){
+  .contato_caixa{
+    flex-direction: column;
+    gap: 120px;
+  }
+  .formulario{
+    width: 100%;
+  }
+  .contato_texto{
+    width: 100%;
+  }
+}
+@media screen and (max-width:581px){
+  .contato_texto{
+    padding: 20px;
+  }
+}

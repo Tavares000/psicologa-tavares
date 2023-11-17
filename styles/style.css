@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,600&display=swap');
+@import url('home.css');
+@import url('sobre.css');
+@import url('atuacao.css');
+@import url('contato.css');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+:root{
+  --color-bege:#d39c5c;
+  --color-branco:#ffffff;
+  --color-texto:#dfdede;
+  --color-cinza:#e0e0e08c;
+  --color-preto:#000000;
+  --color-fundo:linear-gradient(72deg, rgb(0, 0, 0) 20.8%, rgb(63, 63, 63) 100.58%); ;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  font-family: 'poppins', san-serif;
+  font-weight: 300;
+  background: var(--color-fundo);
+  color:var(--color-texto);
+}
+footer{
+  margin-top: 80px;
+  background-color: var(--color-bege);
+  color: var(--color-preto);
+  text-align: center;
+}
+footer p{
+  padding: 10px;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+.container{
+  max-width: 1400px;
+  padding: 0 60px;
+  margin: 0 auto 80px auto;
+}
+.titulo{
+  color: var(--color-cinza);
+  font-weight: 700;
+  font-size: 1.5rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+}
+.titulo::after{
+  content: "..." ;
+  color:var(--color-bege);
+  position: absolute;
+  bottom: -40px;
+  font-size: 60px;
+  left: calc(50% - 30px)
+}
+.caixa{
+  background-color: var(--color-fundo);
+  border-radius: 20px ;
+  box-shadow: 1px 1px 10px var(--color-cinza); 
+}
+.rolar_cima{
+  position: fixed;
+  bottom: 6%;
+  right: 1%;
+}
+.hidden{
+  opacity: 0;
+  filter: blur(15px);
+  transform:  translateX(-20%);
+  transition: all 1s;
+}
+.show{
+  opacity: 1;
+  filter: blur(0px);
+  transform:  translateX(0);
+  transition: all 1s;
+}
+/* formulario, classes puxando js*/
+.success{
+  color: var(--color-bege);
+}
+.error{
+  color: tomato;
+}
+/* Animação home */
+@keyframes inicializar{ 
+  from{
+    opacity: 0;
+    transform: translate(0, -60px);
+  }
+  to{
+    opacity: 1;
+    transform: translate(0, 0, 0);
+  }
+}
+/* Animação foto homer */
+@keyframes flutuar { 
+  0%{
+    top: 0
+  }
+  100%{
+    top: 30px;
+  } 
+}
+/* Animação frase home */
+@keyframes pisca {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+@media screen and (max-width: 581px ) {
+  footer p{
+    font-size: 0.8rem;
+  }
+  .hidden{
+    filter: blur(0px); 
+  }
+  .container{
+    padding: 0 40px;
+  }
+}
